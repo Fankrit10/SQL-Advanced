@@ -1,0 +1,18 @@
+--Elaborado por Fabian Niño
+
+DELIMITER //
+
+CREATE PROCEDURE Get()
+BEGIN
+	SELECT *  FROM PETSALE;
+END //
+
+DELIMITER ;
+
+CALL Get();
+
+CREATE PROCEDURE Aumentar(@QUANTITY QUAN)
+BEGIN
+	
+END
+	
